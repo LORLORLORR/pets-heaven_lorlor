@@ -1,0 +1,39 @@
+.pet-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+  }
+  
+  .pet-filter form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pet-filter label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .pet-filter input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #218838;
+  }
+  

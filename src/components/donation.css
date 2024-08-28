@@ -1,0 +1,65 @@
+/* Donation Page Styles */
+.donation-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.donation-header {
+    text-align: center;
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.donation-header h1 {
+    margin: 0;
+}
+
+.donation-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.donation-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.donation-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.donation-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.donation-form button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.donation-form button:hover {
+    background-color: #e55b50;
+}

@@ -1,0 +1,37 @@
+.pet-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    height: 450px;
+  }
+  
+  .pet-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pet-image {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .pet-info {
+    text-align: left;
+  }
+  
+  .adopt-button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .adopt-button:hover {
+    background-color: #ff6347;
+  }
+  
